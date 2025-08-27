@@ -1,0 +1,22 @@
+CarCrashGame/
+├── App/
+│   └── CarCrashGameApp.swift
+├── Views/
+│   ├── ContentView.swift        # Main game + UI
+│   ├── AuthView.swift           # Sign in / sign up
+│   ├── LaunchView.swift         # Checks authentication
+│   ├── CarTuningView.swift      # Car tuning sliders
+│   └── CarRevealView.swift      # Surprise car unlock
+├── Models/
+│   ├── CarConfig.swift
+│   ├── CarPhysics.swift
+│   └── CarNode.swift
+├── Scene/
+│   └── GameScene.swift          # Unified scene: physics + multiplayer + mods
+├── Utils/
+│   └── ModLoader.swift
+├── Assets/
+│   └── 3DModels/
+│       ├── sportster.scn
+│       └── muscle.scn
+└── Info.plist
