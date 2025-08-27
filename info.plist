@@ -1,29 +1,18 @@
 PhysicsDrive/
-├── CarCrashGameApp.swift            # Entry point of the app
-├── Info.plist                       # App configuration
-├── Assets.xcassets/                 # Images, icons, textures
-├── Models/
-│   ├── CarConfig.swift
-│   ├── GameServer.swift
-│   ├── ModManager.swift
-│   └── CarNode.swift
-├── Views/
-│   ├── LaunchView.swift
-│   ├── AuthView.swift
-│   ├── MainMenuView.swift
-│   ├── PlayChoiceView.swift
-│   ├── MultiplayerMenuView.swift
-│   ├── ServerInfoView.swift
-│   ├── CreateServerView.swift
-│   ├── OfflineServersView.swift
-│   ├── OwnerPanelView.swift
-│   ├── CreateCarView.swift
-│   ├── CarTuningView.swift
-│   ├── CarRevealView.swift
-│   └── CreateMapView.swift
-├── Scene/
-│   └── GameScene.swift               # SceneKit / 3D physics
-├── Utils/
-│   └── ModLoader.swift               # Handles ZIP / mod uploads & downloads
-└── README.md                         # GitHub project description
-
+├─ Package.swift
+├─ PhysicsDrive/
+│  ├─ CarCrashGameApp.swift
+│  ├─ ContentView.swift
+│  ├─ GameScene.swift
+│  ├─ Models/
+│  │   ├─ Car.swift
+│  │   ├─ Server.swift
+│  │   └─ User.swift
+│  ├─ Views/
+│  │   ├─ MainMenuView.swift
+│  │   ├─ MultiplayerMenuView.swift
+│  │   ├─ ServerInfoView.swift
+│  │   └─ CarCreatorView.swift
+│  └─ Utils/
+│      ├─ PhysicsEngine.swift
+│      └─ ModLoader.swift
